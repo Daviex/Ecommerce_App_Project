@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1872.0000000000002" y="6.500000000000497">Client.Reviews.AddReviewController</node>
+    <node x="586.4999999999998" y="877.0">Client.Login.RegistrationFormController</node>
+    <node x="2241.499999999999" y="11.500000000000455">Client.Reviews.ReviewInfoController</node>
+    <node x="1465.0" y="0.0">Client.Orders.OrderInfoController</node>
+    <node x="1207.9999999999993" y="259.50000000000085">Client.Orders.OrdersController</node>
+    <node x="1552.5" y="1326.5">Client.Reviews.ReviewsController</node>
+    <node x="589.5000000000002" y="9.500000000000341">Client.Cart.CartInfoController</node>
+    <node x="1196.0" y="754.5000000000001">Client.Catalogue.ProductInfoController</node>
+    <node x="10.0" y="867.0">Client.Cart.DefaultCartController</node>
+    <node x="584.5" y="599.0000000000002">Client.Cart.CartController</node>
+    <node x="1155.0" y="1299.0">Client.Login.LoginFormController</node>
+    <node x="1922.499999999999" y="1319.0">Client.Main.MainFormController</node>
+    <node x="1202.0" y="480.0">Client.Orders.OrderInfoController.TableInfo</node>
+    <node x="0.0" y="0.0">Client.Cart.CheckoutController</node>
+    <node x="100.0" y="679.0">Client.Cart.CheckoutController.TableInfo</node>
+    <node x="0.0" y="1357.0">Client.Cart.DefaultCartController.TableInfo</node>
+    <node x="1765.499999999999" y="479.9999999999998">Client.Reviews.DefaultReviewsController</node>
+    <node x="1204.9999999999995" y="14.500000000001137">Client.Catalogue.CatalogueController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Client.Orders.OrderInfoController.TableInfo" target="Client.Orders.OrderInfoController">
+      <point x="0.0" y="-112.0" />
+      <point x="0.0" y="220.0" />
+    </edge>
+    <edge source="Client.Cart.CheckoutController" target="Client.Cart.CartController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client.Cart.CartInfoController" target="Client.Cart.CartController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client.Cart.DefaultCartController.TableInfo" target="Client.Cart.DefaultCartController">
+      <point x="0.0" y="-98.5" />
+      <point x="0.0" y="220.0" />
+    </edge>
+    <edge source="Client.Cart.DefaultCartController" target="Client.Cart.CartController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client.Orders.OrderInfoController" target="Client.Orders.OrderInfoController.TableInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client.Cart.CheckoutController.TableInfo" target="Client.Cart.CheckoutController">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="314.5" />
+    </edge>
+    <edge source="Client.Cart.CheckoutController" target="Client.Cart.CheckoutController.TableInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client.Cart.DefaultCartController" target="Client.Cart.DefaultCartController.TableInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="1158.4999999999993" y="969.7499999999995" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

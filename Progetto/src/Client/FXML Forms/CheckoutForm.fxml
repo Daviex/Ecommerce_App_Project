@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane_checkoutInfo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Cart.CheckoutController">
+   <children>
+      <Text fx:id="lbl_checkout" layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Checkout Carrello">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_total" layoutX="14.0" layoutY="628.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Totale da pagare:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_checkout" layoutX="801.0" layoutY="570.0" mnemonicParsing="false" onAction="#checkoutCart" prefHeight="60.0" prefWidth="160.0" text="Paga ora" />
+      <Text fx:id="lbl_name" layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome: Nome Cognome">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_cf" layoutX="14.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale: Codice">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_address" layoutX="14.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indirizzo: Indirizzo">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_city" layoutX="14.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Citta', CAP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_telephone" layoutX="14.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono: Numero">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_email" layoutX="14.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: email">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tbl_couriers" layoutX="14.0" layoutY="267.0" prefHeight="280.0" prefWidth="951.0">
+        <columns>
+          <TableColumn fx:id="tbl_nameCour" editable="false" prefWidth="75.0" text="Nome" />
+          <TableColumn fx:id="tbl_courCost" editable="false" prefWidth="75.0" text="Costo" />
+            <TableColumn fx:id="tbl_expressTime" editable="false" prefWidth="75.0" text="Tempo Consegna" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Text fx:id="lbl_selectedCourier" layoutX="14.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corriere scelto: nomeCorriere">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

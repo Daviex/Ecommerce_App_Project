@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-487.9999999999998" y="-161.66666666666652">Core.Cart.Cart</node>
+    <node x="-438.66666666666697" y="-516.0">Core.Order.Order</node>
+    <node x="319.0" y="-165.66666666666663">Core.Catalogue.Category</node>
+    <node x="-874.9999999999999" y="-541.3333333333334">Core.User.User</node>
+    <node x="-556.6666666666666" y="35.00000000000023">Core.Order.ProductInOrder</node>
+    <node x="23.333333333333485" y="-158.33333333333314">Core.Cart.ProductInCart</node>
+    <node x="-586.6666666666667" y="346.0">Core.Courier.Shipment</node>
+    <node x="183.00000000000023" y="219.33333333333326">Core.Catalogue.Section</node>
+    <node x="-1247.0" y="525.6666666666665">Core.Review.Review</node>
+    <node x="-550.0" y="760.0">Core.Courier.Courier</node>
+    <node x="-106.66666666666652" y="-528.0">Core.Catalogue.Product</node>
+    <node x="-1291.6666666666667" y="42.33333333333326">Core.Core</node>
+    <node x="237.33333333333326" y="528.3333333333334">Core.Catalogue.Catalogue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Core.Core" target="Core.Order.ProductInOrder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Courier.Shipment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Courier.Courier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.User.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Catalogue.Section">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Catalogue.Section" target="Core.Catalogue.Category">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Catalogue.Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Catalogue.Catalogue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Order.ProductInOrder" target="Core.Catalogue.Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Catalogue.Category" target="Core.Catalogue.Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Order.Order">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Order.ProductInOrder" target="Core.Courier.Shipment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Courier.Shipment" target="Core.Courier.Courier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Cart.Cart" target="Core.Cart.ProductInCart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Cart.ProductInCart" target="Core.Catalogue.Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Order.Order" target="Core.Order.ProductInOrder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Catalogue.Catalogue" target="Core.Catalogue.Section">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.User.User" target="Core.Order.Order">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.Core" target="Core.Review.Review">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Core.User.User" target="Core.Cart.Cart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="-25.000000000000227" y="125.49999999999989" />
+  <SelectedNodes>
+    <node>Core.Courier.Courier</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

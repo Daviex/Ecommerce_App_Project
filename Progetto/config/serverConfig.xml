@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Config><SocketPort>3009</SocketPort><Database IP="127.0.0.1" Port="3306"><DBName>ecommerce</DBName><DBUser>root</DBUser><DBPswd>password</DBPswd></Database></Config>

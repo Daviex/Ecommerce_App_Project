@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ordini>
+  <IDOrdine>6379.05</IDOrdine>
+  <DataOrdine>2015-11-01 00:32:39</DataOrdine>
+  <TotaleOrdine/>
+  <ProdottoOrdine id="14">
+    <BlaBlaBla id="2">Aerocool X-Warrior Devil Red Edition</BlaBlaBla>
+    <TotaleProdotto>1639.08</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="44" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="30.0" expressTime="1 Giorno" id="6" name="DHL Ultra"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+  <ProdottoOrdine id="15">
+    <BlaBlaBla id="7">ASUS STRIX - Nvidia GeForce GTX 970, OC, 4 GB (3.5GB+0.5GB) GDDR5, 256 bit</BlaBlaBla>
+    <TotaleProdotto>3600.0</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="44" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="30.0" expressTime="1 Giorno" id="6" name="DHL Ultra"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+  <ProdottoOrdine id="16">
+    <BlaBlaBla id="5">PlayStation 4</BlaBlaBla>
+    <TotaleProdotto>1139.97</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="44" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="30.0" expressTime="1 Giorno" id="6" name="DHL Ultra"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+</Ordini>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane_orderInfo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Orders.OrderInfoController">
+   <children>
+      <Text fx:id="lbl_orderInfo" layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informazioni dell'ordine del gg/MM/YYYY">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_total" layoutX="14.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Totale pagato: x Euro">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tbl_main" layoutX="14.0" layoutY="121.0" prefHeight="519.0" prefWidth="947.0">
+        <columns>
+          <TableColumn fx:id="tbl_product" prefWidth="75.0" text="Nome Prodotto" />
+            <TableColumn fx:id="tbl_quantity" prefWidth="75.0" text="Quantita'" />
+          <TableColumn fx:id="tbl_price" prefWidth="75.0" text="Totale ( Euro )" />
+            <TableColumn fx:id="tbl_status" prefWidth="75.0" text="Stato Ordine" />
+            <TableColumn fx:id="tbl_startDate" prefWidth="75.0" text="Data Spedizione" />
+            <TableColumn fx:id="tbl_goalDate" prefWidth="75.0" text="Data Arrivo" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="btn_saveXML" layoutX="811.0" layoutY="14.0" mnemonicParsing="false" onAction="#SaveXML" prefHeight="48.0" prefWidth="150.0" text="Salva come XML" />
+   </children>
+</Pane>

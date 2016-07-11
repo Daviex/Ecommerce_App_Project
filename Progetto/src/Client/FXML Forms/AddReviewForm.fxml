@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Reviews.AddReviewController">
+   <children>
+      <Text layoutX="10.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aggiungi una recensione">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_productName" layoutX="13.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome Prodotto">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_title" layoutX="15.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titolo">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txt_title" layoutX="15.0" layoutY="150.0" prefHeight="31.0" prefWidth="317.0" />
+      <Text fx:id="lbl_vote" layoutX="14.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Voto">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="cmb_vote" layoutX="17.0" layoutY="227.0" prefWidth="150.0" promptText="Scegli un voto" />
+      <Text fx:id="lbl_review" layoutX="14.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recensione">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="txt_reviewDescription" layoutX="14.0" layoutY="297.0" prefHeight="286.0" prefWidth="953.0" promptText="La tua recensione">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="btn_confirm" layoutX="14.0" layoutY="592.0" mnemonicParsing="false" onAction="#ConfirmReview" prefHeight="48.0" prefWidth="117.0" text="Conferma" />
+   </children>
+</Pane>

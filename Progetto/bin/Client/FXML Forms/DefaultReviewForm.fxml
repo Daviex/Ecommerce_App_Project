@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Reviews.DefaultReviewsController">
+   <children>
+      <Text layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recensioni degli utenti">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_productName" layoutX="14.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome Prodotto">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_averageVotes" layoutX="14.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Media Voti: x / y su n voti">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 -">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="prgr_vote5" layoutX="58.0" layoutY="238.0" prefHeight="37.0" prefWidth="215.0" progress="0.0" />
+      <Text fx:id="lbl_numVotes5" layoutX="281.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x su y">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 -">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="prgr_vote4" layoutX="57.0" layoutY="291.0" prefHeight="37.0" prefWidth="215.0" progress="0.0" />
+      <Text fx:id="lbl_numVotes4" layoutX="280.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x su y">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 -">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="prgr_vote3" layoutX="59.0" layoutY="349.0" prefHeight="37.0" prefWidth="215.0" progress="0.0" />
+      <Text fx:id="lbl_numVotes3" layoutX="282.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x su y">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 -">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="prgr_vote2" layoutX="57.0" layoutY="407.0" prefHeight="37.0" prefWidth="215.0" progress="0.0" />
+      <Text fx:id="lbl_numVotes2" layoutX="280.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x su y">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 -">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="prgr_vote1" layoutX="57.0" layoutY="463.0" prefHeight="37.0" prefWidth="215.0" progress="0.0" />
+      <Text fx:id="lbl_numVotes1" layoutX="280.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x su y">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_defaultReview" layoutX="520.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ultima recensione inserita:">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_user_date" layoutX="520.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utente in data">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_vote" layoutX="520.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Voto">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="txt_reviewDescription" editable="false" layoutX="520.0" layoutY="300.0" prefHeight="345.0" prefWidth="448.0" text="Recensione dell'utente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Text fx:id="lbl_title" layoutX="520.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titolo">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_addReview" disable="true" layoutX="77.0" layoutY="523.0" mnemonicParsing="false" onAction="#AddReview" prefHeight="37.0" prefWidth="175.0" text="Aggiungi Recensione" />
+      <Button fx:id="btn_removeReview" disable="true" layoutX="77.0" layoutY="583.0" mnemonicParsing="false" onAction="#RemoveReview" prefHeight="37.0" prefWidth="175.0" text="Rimuovi Recensione" />
+   </children>
+</Pane>

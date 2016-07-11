@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane_defaultCart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Cart.DefaultCartController">
+   <children>
+      <Text fx:id="lbl_myCart" layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il mio carrello">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tbl_main" layoutX="14.0" layoutY="74.0" prefHeight="476.0" prefWidth="947.0">
+        <columns>
+          <TableColumn fx:id="tbl_product" prefWidth="75.0" text="Nome Prodotto" />
+            <TableColumn fx:id="tbl_quantity" prefWidth="75.0" text="Quantita'" />
+          <TableColumn fx:id="tbl_price" prefWidth="75.0" text="Prezzo  ( Euro )" />
+            <TableColumn fx:id="tbl_percentage" prefWidth="75.0" text="Sconto ( % )" />
+            <TableColumn fx:id="tbl_total" prefWidth="75.0" text="Totale prodotto ( Euro )" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Text fx:id="lbl_total" layoutX="14.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Totale:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_totalDiscount" fill="RED" layoutX="376.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Risparmio:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_checkout" layoutX="801.0" layoutY="570.0" mnemonicParsing="false" onAction="#CheckoutCart" prefHeight="60.0" prefWidth="160.0" text="Checkout" />
+   </children>
+</Pane>

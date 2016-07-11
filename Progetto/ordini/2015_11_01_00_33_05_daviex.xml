@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ordini>
+  <IDOrdine>1102.94</IDOrdine>
+  <DataOrdine>2015-11-01 00:33:05</DataOrdine>
+  <TotaleOrdine/>
+  <ProdottoOrdine id="6">Xbox One<BlaBlaBla/>
+    <TotaleProdotto>1079.95</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="46" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="10.0" expressTime="6-7 Giorni" id="1" name="Bartolini"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+  <ProdottoOrdine id="9">Harry Potter Collezione Completa (8 Dvd)<BlaBlaBla/>
+    <TotaleProdotto>22.99</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="46" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="10.0" expressTime="6-7 Giorni" id="1" name="Bartolini"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+</Ordini>

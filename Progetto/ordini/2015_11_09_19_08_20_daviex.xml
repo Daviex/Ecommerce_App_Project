@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ordini>
+  <IDOrdine>139.76</IDOrdine>
+  <DataOrdine>2015-11-09 19:08:20</DataOrdine>
+  <TotaleOrdine/>
+  <ProdottoOrdine id="24">
+    <NomeProdotto id="4">Aerocool GT-S White Edition</NomeProdotto>
+    <TotaleProdotto>139.76</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="51" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="20.0" expressTime="2-3 Giorni" id="5" name="Bartolini Express"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+</Ordini>

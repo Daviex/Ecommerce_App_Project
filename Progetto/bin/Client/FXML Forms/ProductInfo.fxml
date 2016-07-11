@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="996.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Catalogue.ProductInfoController">
+  <content>
+    <AnchorPane id="pane_scroll" minHeight="0.0" minWidth="0.0" prefHeight="667.0" prefWidth="996.0">
+         <children>
+            <ImageView id="imageProduct" fx:id="img_product" fitHeight="277.0" fitWidth="284.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Text fx:id="lbl_productTitle" layoutX="306.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome Prodotto">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text fx:id="lbl_priceTitle" layoutX="306.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezzo">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="lbl_priceNormal" layoutX="306.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezzo Normale">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="lbl_priceDiscounted" fill="RED" layoutX="306.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezzo Scontato">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="lbl_quantity" layoutX="650.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantità">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <TextField id="txt_quantity" fx:id="txt_quantity" layoutX="646.0" layoutY="141.0" prefHeight="56.0" prefWidth="80.0" text="1">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <Button fx:id="btn_increaseQuantity" layoutX="728.0" layoutY="137.0" mnemonicParsing="false" onAction="#increaseQuantity" prefHeight="31.0" prefWidth="31.0" text="^" />
+            <Button fx:id="btn_decreaseQuantity" layoutX="728.0" layoutY="170.0" mnemonicParsing="false" onAction="#decreaseQuantity" prefHeight="31.0" prefWidth="31.0" text="v" />
+            <TextArea id="txt_description" fx:id="txt_description" editable="false" layoutX="14.0" layoutY="342.0" prefHeight="295.0" prefWidth="955.0" text="Descrizione del prodotto scelto">
+               <font>
+                  <Font size="16.0" />
+               </font></TextArea>
+            <Button id="btn_buy" fx:id="btn_buy" layoutX="305.0" layoutY="245.0" mnemonicParsing="false" onAction="#addProductToCart" prefHeight="46.0" prefWidth="112.0" text="Acquista" />
+            <Text fx:id="lbl_descriptionTitle" layoutX="14.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrizione Prodotto">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Button fx:id="btn_reviews" layoutX="611.0" layoutY="245.0" mnemonicParsing="false" onAction="#showReviews" prefHeight="46.0" prefWidth="177.0" text="Visualizza Recensioni" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

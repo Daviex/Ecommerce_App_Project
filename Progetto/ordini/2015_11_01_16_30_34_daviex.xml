@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ordini>
+  <IDOrdine>279.52</IDOrdine>
+  <DataOrdine>2015-11-01 16:30:34</DataOrdine>
+  <TotaleOrdine/>
+  <ProdottoOrdine id="4">Aerocool GT-S White Edition<BlaBlaBla/>
+    <TotaleProdotto>279.52</TotaleProdotto>
+    <StatoOrdineProdotto>In Preparazione</StatoOrdineProdotto>
+    <SpedizioneOrdine addressGoal="Via Calispera Pal.P n.2" capGoal="98125" goalDate="N/D" goalLocation=" Messina" id="50" startDate="N/D" startLocation="Messina">
+      <CorriereSpedizione cost="10.0" expressTime="1 Settimana" id="4" name="SDA"/>
+    </SpedizioneOrdine>
+  </ProdottoOrdine>
+</Ordini>

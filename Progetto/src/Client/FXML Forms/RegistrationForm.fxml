@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Login.RegistrationFormController">
+   <children>
+      <Text layoutX="159.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrati">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_username" layoutX="33.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <TextField fx:id="txt_username" layoutX="32.0" layoutY="93.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_password" layoutX="255.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <PasswordField fx:id="txt_password" layoutX="255.0" layoutY="93.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_name" layoutX="32.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <TextField fx:id="txt_name" layoutX="33.0" layoutY="158.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_surname" layoutX="255.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cognome" />
+      <TextField fx:id="txt_surname" layoutX="255.0" layoutY="158.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_address" layoutX="32.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indirizzo" />
+      <TextField fx:id="txt_address" layoutX="32.0" layoutY="218.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_city" layoutX="257.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Città" />
+      <TextField fx:id="txt_city" layoutX="255.0" layoutY="218.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_cap" layoutX="33.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAP" />
+      <TextField fx:id="txt_cap" layoutX="32.0" layoutY="284.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_telephone" layoutX="257.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero di telefono" />
+      <TextField fx:id="txt_telephone" layoutX="256.0" layoutY="284.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_cf" layoutX="34.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale" />
+      <TextField fx:id="txt_cf" layoutX="32.0" layoutY="348.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_email" layoutX="256.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <TextField fx:id="txt_email" layoutX="257.0" layoutY="348.0" prefHeight="31.0" prefWidth="164.0" />
+      <Text fx:id="lbl_bornDate" layoutX="104.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data di nascita (GG/MM/AAAA)" />
+      <ComboBox fx:id="cmb_day" layoutX="104.0" layoutY="410.0" prefHeight="31.0" prefWidth="74.0" />
+      <ComboBox fx:id="cmb_month" layoutX="185.0" layoutY="410.0" prefHeight="31.0" prefWidth="74.0" />
+      <ComboBox fx:id="cmb_year" layoutX="264.0" layoutY="410.0" prefHeight="31.0" prefWidth="86.0" />
+      <Button fx:id="btn_reset" layoutX="40.0" layoutY="455.0" mnemonicParsing="false" onAction="#ResetFields" prefHeight="31.0" prefWidth="97.0" text="Reset" />
+      <Button fx:id="btn_register" layoutX="312.0" layoutY="455.0" mnemonicParsing="false" onAction="#RegisterUser" prefHeight="31.0" prefWidth="97.0" text="Registra" />
+   </children>
+</Pane>

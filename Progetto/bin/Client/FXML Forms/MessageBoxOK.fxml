@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane_box" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Utils.MessageBoxOKController">
+   <children>
+      <Button fx:id="btn_ok" layoutX="252.0" layoutY="45.0" mnemonicParsing="false" onAction="#OKButton" prefHeight="52.0" prefWidth="96.0" text="OK" />
+      <Text fx:id="txt_message" layoutX="13.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Messaggio da visualizzare" wrappingWidth="574.6708984375">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

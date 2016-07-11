@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:id="pane_cart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Cart.CartController">
+   <children>
+      <TreeView fx:id="tree_cart" prefHeight="656.0" prefWidth="300.0" />
+      <Pane fx:id="pane_cartInfo" layoutX="300.0" prefHeight="656.0" prefWidth="980.0" />
+   </children>
+</Pane>
